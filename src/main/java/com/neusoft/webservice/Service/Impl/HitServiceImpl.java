@@ -19,7 +19,7 @@ public class HitServiceImpl implements HitService {
     public String resourceMethod(String xmlData) {
 
         System.out.println("入参"+xmlData);
-        String strUrl = "http://192.168.80.153:8080/Ws/HisService.asmx?WSDL";
+        String strUrl = "http://192.168.80.97:8080/Ws/HisService.asmx?WSDL";
         URL url = null;
         try {
             url = new URL(strUrl);
